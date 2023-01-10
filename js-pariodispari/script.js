@@ -6,13 +6,8 @@ function generaNumeroRandom(min, max) {
     return numeroRandom;
 
 }
-
-for (let i = 0; i < 1; i++) {
-
-    const numero = generaNumeroRandom(1, 5);
-    alert('Numero Computer '+numero);
-
-}
+let numero = generaNumeroRandom(1, 5);
+alert('Numero Computer '+ numero);
 
 function sommaNumeri(num1, num2) {
   
@@ -21,6 +16,21 @@ function sommaNumeri(num1, num2) {
     return risultato;
      
 }
-const somma = sommaNumeri(numeroUtente ,numeroComputer);
-const numeroComputer = numero;
-alert('SOMMA', somma); 
+const somma = sommaNumeri(numeroUtente ,numero);
+alert('SOMMA '+ somma); 
+
+function pariODispari(somma) {
+
+    if (somma % 2 == 0) {
+
+        alert('Numero Pari');
+
+    }
+    else{
+
+        alert('Numero Dispari');
+    
+    }
+
+}
+const risposta = pariODispari(somma);
