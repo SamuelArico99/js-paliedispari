@@ -1,4 +1,4 @@
-let parola = prompt('inserisci una parola');
+ let parola = prompt('inserisci una parola');
 let parolaInversa = invertiParola(parola);
 
 function invertiParola(invert){
